@@ -1,0 +1,100 @@
+h1{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    color: brown;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-align: center;
+}
+.header{
+    height: 150px;
+    background-color: rgb(197, 181, 181);
+}
+.footer{
+    height: 150px;
+    background-color: rgb(197, 181, 181);
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: wheat;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.button:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+.red{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.blockJava{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url(java.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blockCsh{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url(csh.png);
+}
+.blockJS{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url(js.png);
+}
+.blockPY{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url(python.png);
+}
+.blockPHP{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url(php.png);
+}
+.blockKot{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url(kot.png);
+}
